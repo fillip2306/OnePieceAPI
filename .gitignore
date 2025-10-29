@@ -1,0 +1,41 @@
+# ========== GLOBAL IGNORES ==========
+
+# OS / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# ========== FRONTEND: React ==========
+# Node.js dependencies
+onepiece-app/node_modules/
+onepiece-app/dist/
+onepiece-app/.env
+onepiece-app/.env.local
+
+# Build artifacts
+onepiece-app/build/
+onepiece-app/.parcel-cache/
+
+# ========== BACKEND: .NET API ==========
+onepieceApi/bin/
+onepieceApi/obj/
+onepieceApi/out/
+onepieceApi/.vs/
+
+# Databases
+onepieceApi/*.db
+onepieceApi/*.sqlite
+
+# EF migrations (optional – uncomment if you don’t want to push them)
+# onepieceApi/Migrations/
+
+# Config files
+onepieceApi/appsettings.*.json
+!onepieceApi/appsettings.json  # keep base config
+
+# Publish folder
+onepieceApi/publish/
